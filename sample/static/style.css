@@ -1,0 +1,40 @@
+.focal-point {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.focal-point img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+}
+
+
+@media all and (max-width: 600px) {
+
+    /* 4x3 Landscape Shape (Default) */
+    .focal-point div {
+        margin: -3em -4em;
+    }
+
+    /* Landscape up (Total 6em) */
+    .up-3 div {
+        margin-top:    -1.5em;
+        margin-bottom: -4.5em;
+    }
+
+    .right-3 div {
+        margin-left:  -6em;
+        margin-right: -2em;
+    }
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
